@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "rubik";
+    src: url(RubikMonoOne-Regular.woff);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "quicksands";
+    src: url(Quicksand-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "quicksands_bold";
+    src: url(Quicksand-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "quicksands_semibold";
+    src: url(Quicksand-SemiBold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+.titre
+{   
+    font-size: 35px;
+    color: #EEB41F;
+    font-family: quicksands_semibold;
+}
+
+body{
+    padding: 0px;
+   margin: 0px;
+}
+
+
+
+h2{
+    margin-top: 0;
+}
+
+/* Contient barre de nav, image , h1 et bouton */
+
+header{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 0;
+    color: white;
+  
+    
+}
+nav ul li{
+    font-family: quicksands;
+    padding-top: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+ul{
+    background-color: #EEB41F;
+    float: right;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+#imgaccueil{
+    z-index: 0;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    object-fit: cover;
+   
+}
+
+#accueil{
+
+    color: white;
+    background-color: #EEB41F;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    z-index: 2;
+}
+h1{
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 200px;
+    font-family: rubik;
+    font-size: 120px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 10px;
+    
+}
+
+#accueilbutton{
+    position: relative;
+    font-weight: bold;
+    font-family: quicksands;
+    bottom: 100px;
+    padding: 20px;
+    background-color: #EEB41F;
+    font-size: 30px;
+    margin-left: 200px;
+    color: white;
+    text-align: center;
+    border-width: 1px;
+    border: solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    
+
+    
+}
+.padding{
+    padding-left: 50px;
+    padding-right: 20px;
+}
+#decale{
+    position: absolute;
+    top: 350px;
+    z-index: 3;
+}
+#quicksand{
+    font-family: quicksands;
+    padding-top: 0px;
+    margin-top: 0px;
+    letter-spacing: 20px;
+}
+
+
+
+
+/* Contient 2bloc avec titre et texte d'un coté image de l'autre */
+
+#sousimage{
+    margin-top: 0;
+    display: flex;
+    height: 600px;
+    background-color: #1E1E1E;
+}
+
+
+#section1{
+    margin-top: 100px;
+    padding-left: 50px;
+    background-color: #EEB41F;
+    height: 400px;
+    width: 40%;
+    color: white;
+    padding-left: 250px;
+    padding-right: 100px;
+    font-family: quicksands;
+    font-size: 26px;
+}
+#section2{
+    margin-top: 100px;
+    padding-left: 50px;
+    width: 60%;
+    height: 400px;
+}
+#nouveaute{
+    padding-top: 40px;
+    font-family: quicksands;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.rogner{
+    object-fit: cover;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 400px;
+
+}
