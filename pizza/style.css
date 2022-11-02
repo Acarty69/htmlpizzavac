@@ -22,6 +22,12 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "quicksands_light";
+    src: url(Quicksand-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 .titre
 {   
     font-size: 35px;
@@ -36,8 +42,10 @@ body{
 
 
 
-h2{
+header h2{
     margin-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 /* Contient barre de nav, image , h1 et bouton */
@@ -46,13 +54,13 @@ header{
     margin: 0;
 }
 
-nav{
+header nav{
     position: absolute;
     z-index: 1;
     top: 0;
     right: 0;
 }
-nav ul li a{
+header nav ul li a{
     
     text-decoration: none;
     font-size: 18px;
@@ -61,13 +69,13 @@ nav ul li a{
   
     
 }
-nav ul li{
-    font-family: quicksands;
+header nav ul li{
+    font-family: quicksands_light;
     padding-top: 0;
     display: inline-block;
     margin-top: 10px;
 }
-ul{
+header ul{
     background-color: #EEB41F;
     float: right;
     padding-top: 0;
@@ -118,15 +126,15 @@ h1{
     position: relative;
     font-weight: bold;
     font-family: quicksands;
-    bottom: 75px;
-    padding: 22px;
+    bottom: 125px;
+    padding: 15px 20px 15px 20px;
     background-color: #EEB41F;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 625px;
     color: white;
     text-align: center;
     border-width: 1px;
-    border: solid rgba(255,255,255,0.5);
+    border: solid rgba(255,255,255,0.8);
     border-radius: 5px;
 
     
@@ -233,19 +241,20 @@ h1{
 }
 
 /* Footer comprend image, adresse, réseaux sociaux */
-footer {
+article {
     display: flex;
 }
 
 .imgfooter{
-    padding-top: 150px;
-    padding-left: 150px;
+    padding-top: 120px;
+    padding-left: 120px;
     height: 600px;
     width: 700px;
+    margin-bottom: 100px;
 }
 
 
-footer p{
+article p{
     font-family: quicksands;
     padding-left: 100px;
     padding-top: 250px;
@@ -278,4 +287,23 @@ footer p{
 
 .fb{
     padding-right: 20px;
+}
+
+#petitebarre{
+    background-color: #3E3A35;
+    height: 60px;
+    
+}
+
+
+footer nav a{
+    text-decoration: none;
+    color: white;
+}
+footer nav{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: quicksands_light;
 }
